@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Dev Month</title>
+        <link rel="icon" type="x-icon" href="Cat_Icon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Web Dev Month, HTML, CSS, JavaScript">
+        <meta name="descriptiom" content="Descent into Web Dev">
+        <meta name="author" content="Harshit Vijay Kumar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <base target="_blank">
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="#Day1">Day-1</a></li>
+            <li><a href="#Day2">Day-2</a></li>
+            <li><a href="#Day3">Day-3</a></li>
+            <li><a href="#Day4">Day-4</a></li>
+            <li><a href="#Day5">Day-5</a></li>
+            <li><a href="#Progression">Table</a></li>
+            <li><a href="#Concepts">Concepts</a></li>
+        </ul>
+        <header>
+            <h1>Web Dev Month</h1>
+            <hr>
+        </header>
+        <blockquote title = "Day-1">I also did the web dev month <br><cite>~Sun Tzu</cite></blockquote>
+        <p title = "Day-1"> This is a month dedicated to <ins>Web Dev</ins>. Every day I have to learn something new and add to this site<br>
+        It began on <b>9 September</b>.</p>
+        <p title="Day-2">What will follows are paragraphs about the things I learnt on a day and my thoughts on that day<br>
+        What will be attached with everyday is a screenshot of how the site looked each day.</p>
+
+        <script>
+            function threaten(){
+                alert("Meow Meow I know where you sleep!");
+            }
+            function credits(){
+                alert("Made by Harshit Vijay Kumar. Buy him a cup o' tea eh!");
+            }
+        </script>
+        
+        <picture>
+            <source media="(max-width:400px)" srcset="Catto_Meme.jpg">
+            <img title = "Day-1" src = "Catto_Meme.jpg" alt="Cat" width="340px" height="353px" style="float:left"usemap="#cat">
+        </picture>
+        <map name="cat">
+            <area shape="circle" coords="123,185,14" alt = "cat" onclick="threaten()">
+        </map>
+
+        <h3 title="Day-2" id="Day1">Day-1</h3>
+        <p title="Day-2"> Day-1 covered the basics of HTML, I learnt the layout of a webpage,
+        learnt how to add paragraphs, images, links and how to control were those links open their webpages at.<br>
+        I also learnt how to add borders although they were not working very well yet. I discovered titles
+        Anything you write there pops up when you hover over it, I have planned to <br>use it to keep track of the elements and the day they were added</p>
+
+        <h3 title="Day-3" id="Day2">Day-2</h3>
+        <p title="Day-3">
+            Day-2 began with CSS and using a CSS file to change the whole style of the webpage. I settled on External CSS.<br>
+            Then I learned how to make images into links and transformed my insta and blog link to an image.<br>
+            I also attempted to make a button into a link but that part seemed to be trickier than it looked.<br>
+            Than I created a bookmark and decided on the actual content of the site. The site will document the chages done <br>
+            everyday and will have a photo of those changes attached alongside them.
+        </p>
+
+        <h3 title="Day-4" id="Day3">Day-3</h3>
+        <p title="Day-4">
+            On Day-3, I learned image maps, I edited the cat picture to include a Sharengan. Click the eye for a surprise!<br>
+            I also made the icon for the webpage which is a cat peeking at you!
+        </p>
+
+        <h3 title="Day-5" id="Day4">Day-4</h3>
+        <p title="Day-5">
+            Day-4 was hard, it was hard to focus and complete the day. I was only able to add a table which had problems<br>
+            in adding the image in it and setting its size. The Web-Dev Month has also started consuming a lot of time and<br>
+            I am wondering to restrict the time I invest each day.<br> I was also able to design a navigation bar<br>
+        </p>
+
+        <h3 title="Day-6" id="Day5">Day-5</h3>
+        <p title="Day-6">
+            I finally fixed the table, the images finally fit into the columns better. I discovered Iframes and implemented them<br>
+            now using that to display the table fully.<br>
+            
+            I also added a list at the end of the webpage.<br>
+            I also used JavaScript to add a credits button in the end.<br>
+        </p>
+
+        <h3 title="Day=5" id="Progression" style="text-align:center;">The Journey!</h3>
+        <iframe src="Progression_Table.html" title="Progression Table">Progress.....</iframe>
+
+        <h3 id="Concepts" title="Day-5" style="text-align:start;">Concepts Used -- </h3>
+        <ol class="Concept">
+            <li class="Concept">Head -- Title<br></li>
+            <li class="Concept">Headers</li>
+            <li class="Concept">Pararaph</li>
+            <li class="Concept">Address</li>
+            <li class="Concept">Links<br></li>
+            <li class="Concept">Images--Images as Links  <br></li>
+            <li class="Concept">Image Maps<br></li>
+            <li class="Concept">Buttons</li>
+            <li class="Concept">Script</li>
+            <li class="Concept">Icons</li>
+            <li class="Concept">Title Attribute</li>
+            <li class="Concept">Tables</li>
+            <li class="Concept">Lists</li>
+            <li class="Concept">Navigation Bar</li>
+            <li class="Concept">Classes</li>
+            <li class="Concept">Iframes</li>
+            <li class="Concept">Meta</li>
+
+        </ol>
+
+        <hr>
+        
+        <address>
+        <a title = "Day-2" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="Instagram.png" alt="Instagram" width = "3%" height = "3%">
+        </a>
+        <a title = "Day-2" href = "https://introtoharshit.wordpress.com/">
+            <img src = "skelaton.png" alt = "Blog" width = "3%" height = "3%">
+        </a>
+        <a title = "Day-2" style="align-items: flex-end;"target = "_parent" href="mailto:harshitvijaykumar@gmail.com">
+            <button>You've Got Mail!</button>
+        </a>
+        <button type="button" onclick="credits()">Credits</button>
+        </address>
+
+    </body>
+</html>
