@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Dev Month</title>
+        <link rel="icon" type="x-icon" href="Cat_Icon.ico"/>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="Web Dev Month, HTML, CSS, JavaScript"/>
+        <meta name="descriptiom" content="Descent into Web Dev"/>
+        <meta name="author" content="Harshit Vijay Kumar"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <base target="_self">
+    </head>
+
+    <body>
+        <header>
+            <h1>Web Dev Month</h1>
+        </header>
+        <hr>
+        
+        <div style="overflow:auto">
+            <div class="menu">
+                <a href="#Day1">Day-1</a>
+                <a href="#Day2">Day-2</a>
+                <a href="#Day3">Day-3</a>
+                <a href="#Day4">Day-4</a>
+                <a href="#Day5">Day-5</a>
+                <a href="#Day6">Day-6</a>
+                <a href="#Day7">Day-7</a>
+                <a href="#Progression">Table</a>
+                <a href="#Concepts">Concepts</a>
+
+                <blockquote title="Day-1">I also did the web dev month <br><cite>~Sun Tzu</cite></blockquote>
+
+            </div>
+            
+            <div class="catto">
+                <picture>
+                    <source media="(max-width:500px)" srcset="small_cat.jpg"/>
+                    <source media="(max-width:2000px)" srcset="Catto_Meme.jpg"/>
+                    <img title="Day-1" src="Catto_Meme.jpg" alt="Cat" width="340px" height="353px" style="float:inline-end"usemap="#cat"/>
+                </picture>
+            </div>
+        
+            <div class="main">
+
+                <p title="Day-1">
+                    This is a month dedicated to <ins>Web Dev</ins>. Every day I have to learn something new and add to this site<br>
+                    It began on <b>9 September</b>.
+                </p>
+
+                <p title="Day-2">
+                    What will follows are paragraphs about the things I learnt on a day and my thoughts on that day.
+                    What will be attached with everyday is a screenshot of how the site looked each day.
+                </p>
+
+                <h3 title="Day-2" id="Day1">Day-1</h3>
+                <p title="Day-2">
+                    Day-1 covered the basics of HTML, I learnt the layout of a webpage,
+                    learnt how to add paragraphs, images, links and how to control were those links open their webpages at.<br>
+                    I also learnt how to add borders although they were not working very well yet. I discovered titles.
+                    Anything you write there pops up when you hover over it, I have planned to use it to keep track of the elements and the day they were added
+                </p>
+ 
+                <h3 title="Day-3" id="Day2">Day-2</h3>
+                <p title="Day-3">
+                    Day-2 began with CSS and using a CSS file to change the whole style of the webpage. I settled on External CSS.<br>
+                    Then I learned how to make images into links and transformed my insta and blog link to an image.<br>
+                    I also attempted to make a button into a link but that part seemed to be trickier than it looked.<br>
+                    Than I created a bookmark and decided on the actual content of the site. The site will document the chages done <br>
+                    everyday and will have a photo of those changes attached alongside them.
+                </p>
+
+                <h3 title="Day-4" id="Day3">Day-3</h3>
+                <p title="Day-4">
+                    On Day-3, I learned image maps, I edited the cat picture to include a Sharengan. Click the eye for a surprise!<br>
+                    I also made the icon for the webpage which is a cat peeking at you!
+                </p>
+
+                <h3 title="Day-5" id="Day4">Day-4</h3>
+                <p title="Day-5">
+                    Day-4 was hard, it was hard to focus and complete the day. I was only able to add a table which had problems
+                    in adding the image in it and setting its size. The Web-Dev Month has also started consuming a lot of time and
+                    I am wondering to restrict the time I invest each day.<br> I was also able to design a navigation bar<br>
+                </p>
+
+                <h3 title="Day-6" id="Day5">Day-5</h3>
+                <p title="Day-6">
+                    I finally fixed the table, the images finally fit into the columns better. I discovered Iframes and implemented them
+                    now using that to display the table fully.<br>
+                    I also added a list at the end of the webpage.<br>
+                    I also used JavaScript to add a credits button in the end.<br>
+                </p>
+
+                <h3 title="Day-7" id="Day6">Day-6</h3>
+                <p title="Day-7">
+                    Learned about the meta tags and added them.<br>
+                    Modified the Layout,<br>
+                    Retired Early.<br>
+                </p>
+
+                <h3 title="Day-8" id="Day7">Day-7</h3>
+                <p title="Day-8">
+                    The site is now responsive.<br>
+                    The picture element on the cat now works, displays a smaller cat on shrinking the viewport.<br>
+                    Media Queries were added which changed the whole design layout further.<br>
+                </p>
+            </div>
+        </div>
+
+        <script>
+            function threaten(){
+                alert("Meow Meow I know where you sleep!");
+            }
+            function credits(){
+                alert("Made by Harshit Vijay Kumar. Buy him a cup o' tea eh!");
+            }
+        </script>
+        
+        <h3 title="Day=5" id="Progression" style="text-align:center;">The Journey!</h3>
+        <iframe src="Progression_Table.html" title="Progression Table">Progress.....</iframe>
+
+        <map name="cat">
+            <area shape="circle" coords="123,185,14" alt="cat" onclick="threaten()"/>
+        </map>
+
+        <h3 id="Concepts" title="Day-5" style="text-align:start;align-items: center;">Concepts Used -- </h3>
+        <ol class="Concept" style="align-items: center;">
+            <li class="Concept">Head -- Title</li>
+            <li class="Concept">Headers</li>
+            <li class="Concept">Pararaph</li>
+            <li class="Concept">Address</li>
+            <li class="Concept">Links</li>
+            <li class="Concept">Images--Images as Links</li>
+            <li class="Concept">Image Maps</li>
+            <li class="Concept">Buttons</li>
+            <li class="Concept">Script</li>
+            <li class="Concept">Icons</li>
+            <li class="Concept">Title Attribute</li>
+            <li class="Concept">Tables</li>
+            <li class="Concept">Lists</li>
+            <li class="Concept">Navigation Bar</li>
+            <li class="Concept">Classes</li>
+            <li class="Concept">Iframes</li>
+            <li class="Concept">JavaScript Buttons</li>
+            <li class="Concept">Meta</li>
+            <li class="Concept">Responsive</li>
+            <li class="Concept">Media Queries</li>
+        </ol>
+        <hr>
+        <div class="reference">
+            <address>
+                <a title="Day-2" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img src="Instagram.png" alt="Instagram" width="3%" height="3%"/>
+                </a>
+                <a title="Day-2" target="_blank" href="https://introtoharshit.wordpress.com/">
+                    <img src="skelaton.png" alt = "Blog" width="3%" height="3%"/>
+                </a>
+                <a title="Day-2" style="align-items: flex-end;"target="_parent" href="mailto:harshitvijaykumar@gmail.com">
+                    <button>You've Got Mail!</button>
+                </a>
+                <button type="button" onclick="credits()">Credits</button>
+            </address>
+        </div>
+    </body>
+</html>
